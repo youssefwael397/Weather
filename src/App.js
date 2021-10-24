@@ -12,8 +12,8 @@ class App extends Component {
     city: '',
     humidity: '',
     description: '',
-    visibility:'',
-    pressure:'',
+    visibility: '',
+    pressure: '',
     error: ''
   }
 
@@ -35,7 +35,7 @@ class App extends Component {
         humidity: data.main.humidity,
         description: data.weather[0].description,
         visibility: data.visibility,
-        pressure : data.main.pressure,
+        pressure: data.main.pressure,
         error: 'No Error'
       })
     } else {
@@ -46,7 +46,7 @@ class App extends Component {
         humidity: '',
         description: '',
         visibility: '',
-        pressure : '',
+        pressure: '',
         error: 'Please Enter Data'
       })
     }
@@ -55,12 +55,13 @@ class App extends Component {
   render() {
     return (
       <div className="App container mt-2 " >
-        <h1 className=' text-center app text-success fw-bold'>Weather App</h1>
+        <h1 className=' text-center app text-success fw-bold'>Joe Weather App</h1>
+        <hr />
         <Form getWeather={this.getWeather} />
         {
           this.state.country === '' && this.state.city === '' ? (null) : (
             <Weather temp={this.state.temp} country={this.state.country} city={this.state.city} humidity={this.state.humidity} description={this.state.description} visibility={this.state.visibility}
-            pressure={this.state.pressure}/>
+              pressure={this.state.pressure} />
           )
         }
         <Footer />
