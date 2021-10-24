@@ -11,7 +11,7 @@ export default function Footer() {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="#!"
+                        href="https://www.facebook.com/profile.php?id=100013882777343"
                         role="button"
                         data-mdb-ripple-color="dark"
                     ><i className="fab fa-facebook-f"></i
@@ -20,7 +20,7 @@ export default function Footer() {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="#!"
+                        href="https://twitter.com/_youssef_waael_"
                         role="button"
                         data-mdb-ripple-color="dark"
                     ><i className="fab fa-twitter"></i
@@ -29,16 +29,7 @@ export default function Footer() {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="#!"
-                        role="button"
-                        data-mdb-ripple-color="dark"
-                    ><i className="fab fa-google"></i
-                    ></a>
-
-
-                    <a
-                        className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="#!"
+                        href="https://www.instagram.com/_youssef_wael_/"
                         role="button"
                         data-mdb-ripple-color="dark"
                     ><i className="fab fa-instagram"></i
@@ -47,7 +38,7 @@ export default function Footer() {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="#!"
+                        href="https://www.linkedin.com/in/youssef-wael/"
                         role="button"
                         data-mdb-ripple-color="dark"
                     ><i className="fab fa-linkedin"></i
@@ -55,7 +46,7 @@ export default function Footer() {
 
                     <a
                         className="btn btn-link btn-floating btn-lg text-dark m-1"
-                        href="#!"
+                        href="https://github.com/youssefwael397/"
                         role="button"
                         data-mdb-ripple-color="dark"
                     ><i className="fab fa-github"></i
